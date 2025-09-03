@@ -106,7 +106,7 @@ function render() {
       cellEl.className = 'field-cell';
 
       if (value !== 0) {
-        cellEl.classList.add(field-cells--${value});
+        cellEl.classList.add(`field-cells--${value}`);
       }
     });
   });
